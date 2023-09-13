@@ -1,31 +1,219 @@
 @import url("https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
 body {
   color: black;
-  background-color: peachpuff;
+  background-color: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 20px;
+}
+nav a {
+  margin-left: 17%;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 400;
+  color: rgb(172, 177, 177);
+}
+#wwwapas a {
+  margin-left: -420px;
+  font-family: "Coiny", cursive;
+  font-size: 40px;
+  color: black;
+}
+h1 {
+  font: 700 64px "Roboto", sans-serif;
+}
+nav h1 {
+  width: 40%;
+  height: auto;
+  margin-left: 25%;
+} /* no se si va, probaremos despues*/
+
+h1 strong {
+  font-size: 110px;
+  font-family: "Coiny", cursive;
+}
+.wwwapas {
+  font-family: "coiny", cursive;
+font-size: 56px;
+}
+.contenedor1, .contenedor2, .contenedor3 {
+  border-bottom-style:solid;
+  border-bottom-width:0.5px;
+  border-bottom-color: grey;
+}
+.contenedor {
+  display: flex;
+  }
+
+  #smmcdc {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 26.6px;
+    width: auto;
+    text-transform: lowercase;
+    }
+    #fotopng {
+      width:50%;
+      height: auto;
+      margin-left: 25px;
+      display:flex;
+    }
+.contenedor1 {
+  display:flex;
+  flex-direction:row;
+  padding: 20px;
+  margin:auto;
+}
+#sofijulia {
+  display: flex;
+  flex-direction:column;
+  width:50%;
+}
+#gestionamos {
+  flex: 1; 
+  padding: 20px;
+  width: 50%;
+  margin-top: -10px;
+}
+
+.contenedor2 {
+  display:flex;
+  flex-direction:row;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+p {
+  font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
+#fotopng {
+  width:35%;
+  height:auto;
+  margin-right: 50%;
+  margin-left: 30%;
+}
+#imagen {
+max-width: 50%;
+height: auto;
+margin-left: 10px;
+margin-top: 35px;
 
-header {
-    color: grey
+}
+#smmcdc,
+h3,
+li strong,
+.item {
+background-color: #fcee21;
+}
+#titulo {
+flex: 1; 
+padding: 0 20px;
+width: 50%;
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 54.5px;
+font-family: "Roboto", sans-serif;
+text-transform: uppercase;
+margin-top: 35px;
+}
+ol {
+  font-size: 2em;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 125px; 
+  margin-left:-267px;
+  padding: 0px; 
 }
 
-h1 {
-  font: 700 80px "Roboto", sans-serif;
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 68px;
+  color: white;
+  background-color: black;
+}
+.contenedor4 {
+  display: flex;
+}
+.item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 33px;
+  color: black;
+  margin-left: -180px;
+  height: 40px;
+  width: auto;
 }
 
-h1 strong {
-  font-size: 80px;
-  font-family: "Coiny", cursive;
+form {
+margin-right: 0px;
+margin-left: 50px;
+}
+input, textarea {
+  width: 140%;
+}
+.boton-encolumnar {
+  display: flex;
+}
+.boton-encolumnar input {
+  margin-left: 30px;
 }
 
-h2 {
-  font: 400 24.5px "Roboto", sans-serif;
-}
-h2 strong {
+label {
+  display: block;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
 }
-h3 {
-  font-weight: 900;
+label strong {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+aside {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: grey;
+  align-items: center;
+}
+#imagenesredes, a {
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 20%;
+  height: auto;
+}
+#mailto {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: black;
+  text-decoration: none;
+}
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #fcee21;
+  width: 100%;
+}
+#footer {
+  font-family: "coiny", cursive;
+  font-size: 28px;
+  color: black;
+  text-decoration: none;
 }
